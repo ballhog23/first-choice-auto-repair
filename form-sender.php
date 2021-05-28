@@ -3,9 +3,6 @@
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
 
-// Replace sender@example.com with your "From" address.
-// This address must be verified with Amazon SES.
-
 // Replace recipient@example.com with a "To" address. If your account
 // is still in the sandbox, this address must be verified.
 $recipient = 'recipient@any.com';
