@@ -1,0 +1,39 @@
+{
+      "@context": "https://schema.org/",
+      "@type": "AutomotiveBusiness",
+      "url": "https://www.firstchoiceautotx.com",
+      "telephone": "+18173803244",
+      "priceRange": "$$",
+      "image": [
+        "https://s3-media0.fl.yelpcdn.com/bphoto/WsspcKB-O8zG4yZFFzidCQ/l.jpg"
+       ],
+      "@id": "https://www.firstchoiceautotx.com",
+      "name": "First Choice Auto Repair",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "4740 Keller Haslet Rd",
+        "addressLocality": "Keller",
+        "addressRegion": "TX",
+        "postalCode": "76248",
+        "addressCountry": "US"
+      },
+      "openingHours": "Mo,Tu,We,Th,Fr 09:00-18:00",
+      "areaServed": {
+        "@type": "GeoCircle",
+        "geoMidpoint": {
+            "@type": "GeoCoordinates",
+            "latitude": 32.96360471785647,
+            "longitude": -97.25566907328594
+        },
+        "geoRadius": 70000
+    },
+        "author": {
+          "@type": "Person",
+          "name": "Greg Moss"
+        },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 32.96360471785647,
+        "longitude": -97.25566907328594
+      }
+}

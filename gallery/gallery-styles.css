@@ -1,0 +1,187 @@
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 100%;
+  position: relative;
+  margin: auto;
+  margin-top: 40px;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: rgb(255, 230, 0);
+  font-weight: bold;
+  font-size: 30px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: rgb(255, 230, 0);
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+  font-weight: 850;
+}
+
+/* Number text */
+.numbertext {
+  color: rgb(255, 230, 0);
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 10px;
+  width: 10px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: rgb(44, 43, 43);
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@media only screen and (max-width: 280px){
+    .slideshow-container {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 320px){
+    .slideshow-container {
+        width: 70%;
+    }
+}
+
+@media only screen and (max-width: 375px){
+    .slideshow-container {
+        width: 85%;
+    }
+}
+
+@media only screen and (max-width: 414px){
+    .slideshow-container {
+        width: 90%;
+    }
+}
+
+@media only screen and (max-width: 550px){
+    .slideshow-container {
+        width: 90%;
+    }
+}
+
+@media only screen and (min-width: 551px) and (max-width: 640px){
+    .slideshow-container {
+        width: 80%;
+    }
+}
+
+@media only screen and (min-width: 641px) and (max-width: 716px){
+    .slideshow-container {
+        width: 70%;
+    }
+}
+
+@media only screen and (min-width: 717px) and (max-width: 788px){
+    .slideshow-container {
+        width: 65%;
+    }
+}
+
+@media only screen and (min-width: 789px) and (max-width: 834px){
+    .slideshow-container {
+        width: 60%;
+    }
+}
+
+@media only screen and (min-width: 835px) and (max-width: 890px){
+    .slideshow-container {
+        width: 60%;
+    }
+}
+
+@media only screen and (min-width: 891px) and (max-width: 992px){
+    .slideshow-container {
+        width: 50%;
+    }
+}
+
+@media only screen and (min-width: 993px) and (max-width: 1023px){
+    .slideshow-container {
+        width: 40%;
+    }
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1200px){
+    .slideshow-container {
+        width: 50%;
+    }
+}
+
+@media only screen and (min-width: 1201px) and (max-width: 1300px){
+    .slideshow-container {
+        width: 50%;
+    }
+}
+
+@media only screen and (min-width: 1301px){
+    .slideshow-container {
+        width: 30%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}

@@ -1,0 +1,16 @@
+Sitemap: https://firstchoiceautotx.com/sitemap.xml
+
+User-Agent: *
+Disallow: /vendor/
+
+User-agent: Googlebot
+Allow: /
+
+User-agent: AdsBot-Google
+Allow: /
+
+User-agent: Googlebot-Image
+Allow: /
+
+User-agent: Googlebot-Mobile
+Allow: /

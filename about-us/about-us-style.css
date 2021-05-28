@@ -1,0 +1,100 @@
+main{
+    display: flex;
+    flex-direction: column;
+}
+
+.directions{
+    margin-top: 20px;
+    border-top: 10px solid black;
+}
+
+.directions-heading{
+    margin-top: 25px;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 750;
+}
+
+.google-map{
+    width: 90vw;
+}
+
+.about-us{
+    display: flex;
+    flex-flow: column;
+    margin-top: 20px;
+    border-top: 10px solid black;
+}
+
+.about-us p {
+    margin-top: -10px;
+    font-size: 22px;
+}
+
+.about-us p:last-of-type{
+    margin-top: 30px;
+}
+
+.about-business{
+    margin-top: 25px;
+    font-size: 32px;
+    font-weight: 750;
+}
+
+.about-us > .button-holder{
+    margin-bottom: 10px;
+}
+
+.about-us > .services-button {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.apply-button{
+    border-radius:16px;
+    padding: 14px;
+    width: 150px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 750;
+    cursor: pointer;
+    border-width: 0px;
+    background-color: black;
+    color: white;
+    box-shadow: 0px 0px 2px 2px gray;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.apply-button:hover {
+    filter: grayscale(0%) opacity(1);
+    background: var(--text-secondary);
+    color: #000;
+    box-shadow: 0px 0px 2px 2px black;
+}
+
+span{
+    text-align: center;
+}
+@media only screen and (min-width: 601px) {
+    .about-us{
+        width: 60%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .about-business {
+        text-align: center;
+    }
+
+    .google-map{
+        width: 100%;
+        height: 400px;
+    }
+
+    .directions{
+        width: 60%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}

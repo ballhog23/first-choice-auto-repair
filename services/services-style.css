@@ -1,0 +1,181 @@
+@charset "UTF-8";
+/* services style */
+.servicesHeading {
+    text-align: center;
+    font-size: 50px;
+    margin-top: 1rem;
+}
+
+.services{
+    display: flex;
+    flex-flow: column;
+    background: black;
+    color: rgb(255, 230, 0);
+}
+
+.services-list{
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 28px;
+}
+
+.services p {
+    text-align: center;
+    padding-left: 0.25rem;
+    padding-right: 0.25rem;
+    line-height: 28px;
+    margin-top: -1rem;
+    color: rgb(255, 230, 0);
+}
+
+abbr {
+    text-decoration: none;
+}
+
+.greeting {
+    margin-bottom: 30px;
+}
+
+/* form styles */
+.services-form-container {
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.form-header {
+    padding-top: 50px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+}
+
+.services-form{
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    background: black;
+    color: rgb(255, 230, 0);
+}
+
+#error {
+    text-align: center;
+    color: red;
+    text-decoration: underline;
+    margin-bottom: 10px;
+}
+
+.services-form legend {
+    margin-top: 12px;
+    font-size: 16px;
+    text-align: center;
+}
+
+label {
+    margin-top: 1rem;
+}
+
+input {
+    border-radius: 5px;
+    background: black;
+    border:solid 4px rgb(255, 230, 0);
+    height: 32px;
+    font-size: 16px;
+    padding-left: 0.25rem;
+    padding-right: 0.25rem;
+    color: #FFF;
+}
+
+#flname {
+    width: 93%;
+}
+
+#phone {
+    width: 93%;
+}
+
+#email {
+    width: 93%;
+}
+
+#userServicesReq {
+    height: 100px;
+    border-radius: 5px;
+    border:solid 4px rgb(255, 230, 0);
+    padding-left: 0.25rem;
+    padding-right: 0.25rem;
+    font-size: 18px;
+    width: 93%;
+    background: black;
+    color: #FFF;
+}
+
+.inquiry-button{
+    border-radius:16px;
+    height: 2.5rem;
+    width: 200px;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 750;
+    cursor: pointer;
+    border-width: 0px;
+    background-color: black;
+    color: white;
+    box-shadow: 0px 0px 2px 2px rgb(255, 230, 0);
+    margin-bottom: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1rem;
+}
+
+.inquiry-button:hover {
+    filter: grayscale(0%) opacity(1);
+    background: var(--text-secondary);
+    color: #000;
+    box-shadow: 0px 0px 2px 2px black;
+}
+
+@media only screen and (min-width: 601px) {
+    .services {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.services-list{
+    margin-top:40px;
+    line-height: 28px;
+
+}
+
+.call-us-button{
+    margin-bottom: 20px;
+}
+
+    .services-form {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+    .services-form label {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .services-form label:nth-of-type(1) {
+        width: 50%;
+    }
+    .services-form label:nth-of-type(2) {
+        width: 50%;
+    }
+    .services-form label:nth-of-type(3) {
+        width: 50%;
+    }
+    .services-form label:nth-of-type(4) {
+        width: 50%;
+    }
+
+
+}
