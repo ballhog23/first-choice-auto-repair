@@ -59,10 +59,10 @@ $senderName = 'your name';
         $mail->isHTML($isHtml = false);
         $mail->Subject    = $subject;
         $mail->Body    = $altBody . "\n" . $bodyText;
-        if($mail->Send()) {
+        $mail->Send() 
         echo "Email sent!", PHP_EOL;
         // redirect
-       header('Location: https://www.firstchoiceautotx.com/', true, 301);}
+        header('Location: https://www.firstchoiceautotx.com/', true, 301);
 
     } catch (phpmailerException $e) {
         echo "An error occurred.", PHP_EOL; //Catch errors from PHPMailer.
